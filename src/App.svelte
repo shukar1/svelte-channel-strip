@@ -39,9 +39,13 @@
     let start = Math.round(Math.random() * 3) + 1;
     return {
       id: i + 1,
-      title: '',
+      title: 'title',
+	    subtitle: 'subtitle',
       start,
-      end: Math.round(Math.random() * 3) + start
+      end: Math.round(Math.random() * 3) + start,
+	    meta: {
+        backgroundColor: 'pink'
+	    }
     };
   });
   

@@ -1,3 +1,4 @@
+<svelte:options immutable/>
 <script lang='ts'>
   import { press, pressing } from '../../directives';
   import { createEventDispatcher } from 'svelte';
