@@ -1,6 +1,7 @@
 # Channel Strip
-### Made with Svelte 3
+### Made with [Svelte 3](https://svelte.dev/)
 
+## [Demo](https://svelte-channel-strip.surge.sh/)
 
 ### API
 ```
