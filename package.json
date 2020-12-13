@@ -50,5 +50,6 @@
   "description": "UI components library",
   "main": "src/index.js",
   "author": "Omer Shukar (Shuk)",
-  "license": "ISC"
+  "license": "ISC",
+  "svelte": "src/index.js"
 }
