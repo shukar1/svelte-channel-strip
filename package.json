@@ -9,7 +9,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "predeploy": "npm run build",
-    "deploy": "surge public"
+    "deploy": "surge public --domain svelte-channel-strip.surge.sh"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
