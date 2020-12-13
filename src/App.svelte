@@ -44,7 +44,8 @@
       start,
       end: Math.round(Math.random() * 3) + start,
 	    meta: {
-        backgroundColor: 'pink'
+        backgroundColor: 'pink',
+		    handleColor: Math.random() > .5 ? 'red' : 'blue'
 	    }
     };
   });

@@ -23,6 +23,7 @@
     }
   }
   $: annotationStyle = `width: max-content; font-size: 0.75rem; ${annotationPosition}`;
+  $: handleColor = event?.meta?.handleColor || 'gray';
 </script>
 
 <div
@@ -40,7 +41,7 @@
 	class:scale-y-95={scale}
 	class='flex items-center relative select-none
 	transition-all duration-75 ease-in-out transform
-	bg-gray-400
+	bg-{handleColor}-400
 	cursor-ew-resize'
 >
 	<div
