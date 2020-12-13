@@ -14,6 +14,7 @@ events: {
     end: number;
     meta: {
         backgroundColor: tailwind based
+        handleColor: tailwind based
     }
 }
 ```
