@@ -3,6 +3,8 @@
 
 ## [Demo](https://svelte-channel-strip.surge.sh/)
 
+`npm i svelte-channle-strip`
+
 ### API
 ```
 cols: { title: string, children?: [self] }
