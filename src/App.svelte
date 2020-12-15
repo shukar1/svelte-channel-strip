@@ -1,6 +1,7 @@
 <script lang='ts'>
   import Tailwindcss from './Tailwindcss.svelte';
   import Strip from './components/Strip/Strip.svelte';
+  import Github from './components/Github.svelte';
   
   let cols = [
     {
@@ -40,13 +41,13 @@
     return {
       id: i + 1,
       title: 'title',
-	    subtitle: 'subtitle',
+      subtitle: 'subtitle',
       start,
       end: Math.round(Math.random() * 3) + start,
-	    meta: {
+      meta: {
         backgroundColor: 'pink',
-		    handleColor: Math.random() > .5 ? 'red' : 'blue'
-	    }
+        handleColor: Math.random() > .5 ? 'red' : 'blue'
+      }
     };
   });
   
@@ -95,6 +96,7 @@
 		on:ctx={onCtxPress}
 	
 	/>
+	<Github href='https://github.com/shukar1/svelte-channel-strip'/>
 	<!--	on:pendingEvent={onPendingEvent}-->
 </main>
 <style global>
